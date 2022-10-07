@@ -6,25 +6,30 @@
 <div id="container--main">
 
     <section class="section--page">
-        <div>
-            <h1 id="user-name" style="padding-top: 2rem;">Shubhayu Shrestha</h1>
-            <p id="bio">Full Stack Developer @ Lockheed Martin</p>
-            <div>
-                <p id="email">📧 shresthashubhayu@gmail.com</p>
-            </div>
-
-            <div class="social-icons">
-                <a class="social-icon" href="https://www.linkedin.com/in/shubhayu-shrestha" matTooltip="LinkedIn" [matTooltipShowDelay]="100" [matTooltipHideDelay]="100"><img src="../../assets/icons/LinkedIn-Logos/linkedin32x32.png"></a>
-                <a class="social-icon" href="https://github.com/shubshres" matTooltip="GitHub" [matTooltipShowDelay]="100" [matTooltipHideDelay]="100"><img src="../../assets/icons/GitHub-Mark/PNG/GitHub-Mark-32px.png"></a>
+        <div fxLayout="row" fxLayoutAlign="space-evenly center">
+            <img id="profile-pic" src="./assets/profile_pic.png">
+            <div fxLayout="column" fxLayoutAlign="space-between">
+                <h1 id="user-name" style="padding-top: 2rem;">Shubhayu Shrestha</h1>
+                <p id="bio">Full Stack Developer @ Lockheed Martin</p>
+                <div style="padding-bottom: 1rem">
+                    <p id="email">📧 shresthashubhayu@gmail.com</p>
+                </div>
+                <div class="social-icons">
+                    <a class="social-icon" href="https://www.linkedin.com/in/shubhayu-shrestha" matTooltip="LinkedIn"
+                        [matTooltipShowDelay]="100" [matTooltipHideDelay]="100"><img
+                            src="../../assets/icons/LinkedIn-Logos/linkedin32x32.png"></a>
+                    <a class="social-icon" href="https://github.com/shubshres" matTooltip="GitHub" [matTooltipShowDelay]="100"
+                        [matTooltipHideDelay]="100"><img src="../../assets/icons/GitHub-Mark/PNG/GitHub-Mark-32px.png"></a>
+                </div>
             </div>
         </div>
     </section>
 
-    <div class="line-break"></div>
+    <!-- <div class="line-break"></div>
     <section class="section--page">
         <h2>GitHub</h2>
         <img src="https://ghchart.rshah.org/shubshres" alt="My GitHub Chart" />
-    </section>
+    </section> -->
 
     <section class="section--page">
         <h2>Projects</h2>
@@ -51,12 +56,21 @@
     <section class="section--page">
         <h2>Technical Skills</h2>
         <div id="wrapper--techstack__items">
-            <div class="card--techstack" matTooltip="Languages" matTooltipPosition="above" matTooltipHideDelay="100" matTooltipShowDelay="100"><span>Python, C++, C, Java, TypeScript, JavaScript, CSS, C#, R, ARM Assembly</span></div>
-            <div class="card--techstack" matTooltip="Frameworks" matTooltipPosition="above" matTooltipHideDelay="100" matTooltipShowDelay="100"><span>Angular, Ionic, React.js, React Native, Bootstrap, NgRx, Socket.io</span></div>
-            <div class="card--techstack" matTooltip="Backend" matTooltipPosition="above" matTooltipHideDelay="100" matTooltipShowDelay="100"><span>Flask, Node.js</span></div>
-            <div class="card--techstack" matTooltip="Data" matTooltipPosition="above" matTooltipHideDelay="100" matTooltipShowDelay="100"><span>SQLite3, Google Firebase, MongoDB</span></div>
-            <div class="card--techstack" matTooltip="Tools/Technologies" matTooltipPosition="above" matTooltipHideDelay="100" matTooltipShowDelay="100"><span>Kubernetes, Docker, Git, GitHub, Azure DevOps, JIRA, Unity, Unreal Engine, Figma, Android Studio, Drupal, ROS Kinetic, Tkinter, Junit</span></div>
-            <div class="card--techstack" matTooltip="Operating Systems" matTooltipPosition="above" matTooltipHideDelay="100" matTooltipShowDelay="100"><span>macOS, Windows, Linux/Ubuntu</span></div>
+            <div class="card--techstack" matTooltip="Languages" matTooltipPosition="above" matTooltipHideDelay="300"
+                matTooltipShowDelay="300"><span>Python, C++, C, Java, TypeScript, JavaScript, CSS, C#, R, ARM
+                    Assembly</span></div>
+            <div class="card--techstack" matTooltip="Frameworks" matTooltipPosition="above" matTooltipHideDelay="300"
+                matTooltipShowDelay="300"><span>Angular, Ionic, React.js, React Native, Bootstrap, NgRx, Socket.io</span>
+            </div>
+            <div class="card--techstack" matTooltip="Backend" matTooltipPosition="above" matTooltipHideDelay="300"
+                matTooltipShowDelay="300"><span>Flask, Node.js</span></div>
+            <div class="card--techstack" matTooltip="Data" matTooltipPosition="above" matTooltipHideDelay="300"
+                matTooltipShowDelay="300"><span>SQLite3, Google Firebase, MongoDB</span></div>
+            <div class="card--techstack" matTooltip="Tools/Technologies" matTooltipPosition="above"
+                matTooltipHideDelay="300" matTooltipShowDelay="300"><span>Kubernetes, Docker, Git, GitHub, Azure DevOps,
+                    JIRA, Unity, Unreal Engine, Figma, Android Studio, Drupal, ROS Kinetic, Tkinter, Junit</span></div>
+            <div class="card--techstack" matTooltip="Operating Systems" matTooltipPosition="above" matTooltipHideDelay="300"
+                matTooltipShowDelay="300"><span>macOS, Windows, Linux/Ubuntu</span></div>
         </div>
     </section>
 
@@ -70,12 +84,14 @@
                 <p>May 2022 - Present</p>
             </div>
 
-            <p>JADO Readiness</p>
+            <p>Joint All-Domain Operations (JADO) Readiness Program</p>
             <ul>
                 <li>Developed a Minimal Viable Product (MVP) using Angular, Flask, Socket.io, Kubernetes, and Docker to provide an
                 interface for calculating JADO Readiness for multiple projects and systems.</li>
                 <li>Used CI/CD pipelines to improve the software development process</li>    
                 <li>Developed following the agile development process and used JIRA to manage stories.</li>
+                <li>Implemented Socket.io to show live changes between users</li>
+                <li>Implemented NgRx to reduce API calls, improving the efficiency of the application.</li>
             </ul>
             <p>Training/Miscellaneous</p>
             <ul>
@@ -114,7 +130,7 @@
     <section id="work-history-wrapper" class="card--education--section">
         <h2>Education</h2>
         <div class="line-break"></div>
-        <div class="card--education"  fxLayout="row" fxLayoutAlign="space-around start">
+        <div class="card--education" fxLayout="row" fxLayoutAlign="space-around start">
             <div><strong>The University of Texas at Arlington</strong></div>
             <div>
                 <p>Bachelor of Science, Software Engineering</p>

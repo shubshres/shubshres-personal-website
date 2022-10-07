@@ -101,7 +101,7 @@ li{
 }
 
 #email{
-    color: var(--mainTextColor);
+    color: var(--secondaryTextColor);
 }
 
 #socials--list{
@@ -143,6 +143,11 @@ li{
     transition: 0.3s;
 }
 
+.card--techstack span:hover{
+    transition: 0.3s;
+    color: var(--mainTextColor)
+}
+
 .card--project{
     padding-top: 1em;
     padding-bottom: 1em;
@@ -150,14 +155,25 @@ li{
 }
 
 .card--project a{
-    color: var(--mainTextColor);
+    color: var(--secondaryTextColor);
 
     transition: 0.3s;
 }
 
 .card--project a:hover{
-    color: rgb(30, 190,214);
+    //color: rgb(30, 190,214);
+    color: var(--mainTextColor)
+}
 
+.card--project u{
+    color: var(--secondaryTextColor);
+
+    transition: 0.3s;
+}
+
+.card--project u:hover{
+    //color: rgb(30, 190,214);
+    color: var(--mainTextColor)
 }
 
 .card--work-history{
