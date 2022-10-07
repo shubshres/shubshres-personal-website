@@ -9,12 +9,12 @@
 
     // Frosted Background color
     //background-color: rgba(69, 69, 69, 0.70);
-    background-color: rgba(69, 69, 69, 0.8);
+    background-color: rgba(69, 69, 69, 0.7);
     backdrop-filter: saturate(180%) blur(20px);
 
     // Make Nav Bar stay on top of screen
     position: sticky;
-    top: 0px;
+    top: -1px;
     z-index: 100;
 
     border-bottom-right-radius: 5px;
@@ -24,7 +24,6 @@
 }
 
 
-// TO DO: Update Logo
 .logo {
     padding-top: .45rem;
     padding-right: .5rem; 
