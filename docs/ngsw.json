@@ -1,0 +1,105 @@
+{
+  "configVersion": 1,
+  "timestamp": 1665187744708,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.png",
+        "/index.html",
+        "/main.6ba369db9790b14a.js",
+        "/manifest.webmanifest",
+        "/polyfills.95f42cf66b087a31.js",
+        "/runtime.8709a15766b928d0.js",
+        "/styles.6666385c8ca61975.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/icons/GitHub-Mark/PNG/GitHub-Mark-120px-plus.png",
+        "/assets/icons/GitHub-Mark/PNG/GitHub-Mark-32px.png",
+        "/assets/icons/GitHub-Mark/PNG/GitHub-Mark-64px.png",
+        "/assets/icons/GitHub-Mark/PNG/GitHub-Mark-Light-120px-plus.png",
+        "/assets/icons/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png",
+        "/assets/icons/GitHub-Mark/PNG/GitHub-Mark-Light-64px.png",
+        "/assets/icons/GitHub-Mark/Vector/GitHub-Mark.ai",
+        "/assets/icons/GitHub-Mark/Vector/GitHub-Mark.eps",
+        "/assets/icons/LinkedIn-Logos/LI-In-Bug.png",
+        "/assets/icons/LinkedIn-Logos/LI-Logo.png",
+        "/assets/icons/LinkedIn-Logos/linkedin32x32.png",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/profile_pic.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/icons/GitHub-Mark/PNG/GitHub-Mark-120px-plus.png": "8e4af8e0da1da6fb685e86c19afb5322d559a8ca",
+    "/assets/icons/GitHub-Mark/PNG/GitHub-Mark-32px.png": "fabe53eb72f9b6d3d47cd95aff31ffc45c2fdbf8",
+    "/assets/icons/GitHub-Mark/PNG/GitHub-Mark-64px.png": "b00f47d766170d5814e4a1270a3c534642923207",
+    "/assets/icons/GitHub-Mark/PNG/GitHub-Mark-Light-120px-plus.png": "5740f0d2ea93806516b9c646e6e166aa5c0b44d9",
+    "/assets/icons/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png": "b2a79b392657b559776ce122c89e42c42970595f",
+    "/assets/icons/GitHub-Mark/PNG/GitHub-Mark-Light-64px.png": "a897bfa37a683b8d622fdf93f5535654350d83a1",
+    "/assets/icons/GitHub-Mark/Vector/GitHub-Mark.ai": "079b126ce1ec7b689c38157ca9c84feb9ca70eb4",
+    "/assets/icons/GitHub-Mark/Vector/GitHub-Mark.eps": "f976e89a192f97a8474cecacba82863ea4df6705",
+    "/assets/icons/LinkedIn-Logos/LI-In-Bug.png": "eb0a7e1284e631d80c3225c0e2d6c7af931de535",
+    "/assets/icons/LinkedIn-Logos/LI-Logo.png": "3a7b129f78d931d850911d589a279a2e6663868a",
+    "/assets/icons/LinkedIn-Logos/linkedin32x32.png": "82638e970d1da1c6c75073504f7be077eedd2252",
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/profile_pic.png": "932bbfb442d7ae652b8b0259c8d28dc9dacf642e",
+    "/favicon.png": "571179f312077dc10159da0789cb468025308875",
+    "/index.html": "ff4d59afbce91ea608da15521bbd62ebe0653c6b",
+    "/main.6ba369db9790b14a.js": "8d4a37b6b43dab27ed4afcec7c6dcace0e2e656c",
+    "/manifest.webmanifest": "f6b3cbe5fe1a8d7e2d0f1e23ee22155d6fcffe2f",
+    "/polyfills.95f42cf66b087a31.js": "59cba0685a100063edc62f4231a3b61182fcca38",
+    "/runtime.8709a15766b928d0.js": "5629df3e04a91985a4347606ad908c120bb03938",
+    "/styles.6666385c8ca61975.css": "ae67dda01ebfc0267a076d3e625eb8b210927e00"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
