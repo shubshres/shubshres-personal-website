@@ -22,9 +22,10 @@ import { HomeComponent } from './home/home.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
 import { ProjectsPageComponent } from './projects-page/projects-page.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, HomeComponent, AboutMeComponent, ContactMeComponent, ProjectsPageComponent],
+  declarations: [AppComponent, NavbarComponent, HomeComponent, AboutMeComponent, ContactMeComponent, ProjectsPageComponent, FooterComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
