@@ -60,7 +60,8 @@ a{
 
 a:hover{
     // transition: all .8s ease-in;
-    color: rgb(30, 190,214);
+    //color: rgb(30, 190,214);
+    color: var(--mainTextColor)
 }
 
 li{
