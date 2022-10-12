@@ -12,7 +12,8 @@
                 <h1 id="user-name" style="padding-top: 2rem;">Shubhayu Shrestha</h1>
                 <p id="bio">Full Stack Developer @ Lockheed Martin</p>
                 <div style="padding-bottom: 1rem">
-                    <p id="email"><a href="mailto:shresthashubhayu@gmail.com">📧 shresthashubhayu@gmail.com</a></p>
+                    <p id="email"><a href="mailto:shresthashubhayu@gmail.com" matTooltip="Send me an email!" matTooltipPosition="right" matTooltipHideDelay="100"
+                matTooltipShowDelay="100">📧 shresthashubhayu@gmail.com</a></p>
                 </div>
                 <div class="social-icons">
                     <a class="social-icon" href="https://www.linkedin.com/in/shubhayu-shrestha" matTooltip="LinkedIn"
@@ -34,22 +35,28 @@
     <section class="section--page">
         <h2>My Projects</h2>
         <div class="card--project">
-            <a href="https://github.com/shubshres/Bin-Buddy"><span>🗑️ &nbsp;</span>Bin Buddy!</a>
+            <button class="project-button" mat-button [disableRipple]="true" (click)="openBinBuddy()"><span>🗑️ &nbsp;</span>Bin Buddy</button>
+            <!-- <a href="https://github.com/shubshres/Bin-Buddy"><span>🗑️ &nbsp;</span>Bin Buddy</a> -->
         </div>
         <div class="card--project">
-            <a href="https://github.com/shubshres/Ava"><span>🎙 &nbsp;</span>Ava (Voice Assistant)</a>
+            <button class="project-button" mat-button [disableRipple]="true" (click)="openAva()"><span>🎙 &nbsp;</span>Ava (Voice Assistant)</button>
+            <!-- <a href="https://github.com/shubshres/Ava"><span>🎙 &nbsp;</span>Ava (Voice Assistant)</a> -->
         </div>
         <div class="card--project">
-            <a href="https://github.com/shubshres/CarRentalDatabase"><span>🚗 &nbsp;</span>Car Rental Database</a>
+            <button class="project-button" mat-button [disableRipple]="true" (click)="openCarRentalDatabase()"><span>🚗 &nbsp;</span>Car Rental Database</button>
+            <!-- <a href="https://github.com/shubshres/CarRentalDatabase"><span>🚗 &nbsp;</span>Car Rental Database</a> -->
         </div>
         <div class="card--project">
-            <a href="https://github.com/shubshres/Stock-Trading-Alert"><span>📈 &nbsp;</span>Stock Trading Alert</a>
+            <button class="project-button" mat-button [disableRipple]="true" (click)="openStockAlert()"><span>📈 &nbsp;</span>Stock Trading Alert</button>
+            <!-- <a href="https://github.com/shubshres/Stock-Trading-Alert"><span>📈 &nbsp;</span>Stock Trading Alert</a> -->
         </div>
         <div class="card--project">
-            <a href="https://github.com/srisubhashp/littlehopper-AndroidApplication"><span>📓 &nbsp;</span>Teaching Toddlers App</a>
+            <button class="project-button" mat-button [disableRipple]="true" (click)="openTeachingToddlers()"><span>📓 &nbsp;</span>Teaching Toddlers App</button>
+            <!-- <a href="https://github.com/srisubhashp/littlehopper-AndroidApplication"><span>📓 &nbsp;</span>Teaching Toddlers App</a> -->
         </div>
         <div class="card--project">
-            <a href="https://github.com/shubshres?tab=repositories"><span> &nbsp;</span><u>All Projects</u></a>
+            <button class="project-button" mat-button [disableRipple]="true" routerLink="/projects"><span> &nbsp;</span><u>All Projects</u></button>
+            <!-- <a href="https://github.com/shubshres?tab=repositories"><span> &nbsp;</span><u>All Projects</u></a> -->
         </div>
     </section>
 
@@ -105,7 +112,8 @@
                 <p>April 2021 - May 2022</p>
             </div>
             <p>Worked as an undergraduate researcher at The University of Texas at Arlington's Heracleia Human-Centered Computing Lab gaining exposure to Robotics, Reinforcement Learning, and Contrastive Learning methodologies.</p>
-            <p><a href="https://dl.acm.org/doi/abs/10.1145/3529190.3534731">Traversability Estimation Framework</a></p>
+            <p><a href="https://dl.acm.org/doi/abs/10.1145/3529190.3534731" matTooltip="Check out the publication!" matTooltipPosition="right" matTooltipHideDelay="300"
+                matTooltipShowDelay="300">Traversability Estimation Framework</a></p>
             <ul>
                 <li>Created a framework that blends self-supervised contrastive pre-training with semi-supervised learning using
                 fine-tuning, as a means to perform successful image classification for traversability estimation purposes in an indoor
@@ -117,7 +125,8 @@
             <ul>
                 <li>Utilized ROS Kinetic to control a Sawyer Robot to pick up blocks utilizing reinforcement learning</li>
             </ul>
-            <p><a href="https://petrae.org">PETRA Committee</a></p>
+            <p><a href="https://petrae.org" matTooltip="Visit the PETRA Website?" matTooltipPosition="right" matTooltipHideDelay="300"
+                matTooltipShowDelay="300">PETRA Committee</a></p>
             <ul>
                 <li>Assisted in the organization of the international conference PETRA 2022</li>
                 <li>Worked on assisting in workshops and setting up presentations</li>
@@ -133,6 +142,7 @@
             <div>
                 <p>Bachelor of Science, Software Engineering</p>
                 <p>GPA: 3.84/4.0</p>
+                <p>Magna Cum Laude</p>
                 <p>College of Engineering Dean's List</p>
                 <p>Maverick Academic Scholarship</p>
             </div>

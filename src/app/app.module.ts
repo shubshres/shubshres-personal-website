@@ -23,9 +23,15 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
 import { ProjectsPageComponent } from './projects-page/projects-page.component';
 import { FooterComponent } from './footer/footer.component';
+import { BinBuddyComponent } from './project-pop-ups/bin-buddy/bin-buddy.component';
+import { AvaComponent } from './project-pop-ups/ava/ava.component';
+import { CarRentalDatabaseComponent } from './project-pop-ups/car-rental-database/car-rental-database.component';
+import { StockAlertComponent } from './project-pop-ups/stock-alert/stock-alert.component';
+import { TeachingToddlersComponent } from './project-pop-ups/teaching-toddlers/teaching-toddlers.component';
+import { DownForMaintenanceComponent } from './down-for-maintenance/down-for-maintenance.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, HomeComponent, AboutMeComponent, ContactMeComponent, ProjectsPageComponent, FooterComponent],
+  declarations: [AppComponent, NavbarComponent, HomeComponent, AboutMeComponent, ContactMeComponent, ProjectsPageComponent, FooterComponent, BinBuddyComponent, AvaComponent, CarRentalDatabaseComponent, StockAlertComponent, TeachingToddlersComponent, DownForMaintenanceComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
