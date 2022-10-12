@@ -1,0 +1,21 @@
+
+<div fxLayout="row" fxLayoutAlign="space-evenly center">
+    <div fxLayout="column" fxLayoutAlign="space-evenly center" style="padding-top: 10%; padding-bottom: 50%">
+        <h1>🚧 This page is currently down for maintenance! 🚧</h1>
+        <h2>Sorry... 🙁</h2>
+
+        <div *ngIf="checkRoute('project')">
+            <span class="subtext">Please check out my <a
+                    href="https://github.com/shubshres?tab=repositories">GitHub
+                    Repositories</a> for now as I finish up working on this page. Thank you!</span>
+        </div>
+
+        <div *ngIf="checkRoute('contact')">
+            <span class="subtext">Please contact me via <a href="mailto:shresthashubhayu@gmail.com">email </a> 
+                for now as I finish up working on this page. Thank you!</span>
+        </div>
+    </div>
+    <div style="padding-top: 10%; padding-bottom: 50%">
+        <img src="../../assets/maintenance.png">
+    </div>    
+</div>
