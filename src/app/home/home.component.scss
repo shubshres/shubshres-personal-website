@@ -33,7 +33,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
 
-
 *{
     font-family: 'Readex Pro';
     line-height: 1.5em;
@@ -205,6 +204,15 @@ li{
     padding: 5px;
 }
 
+.card--education--courses{
+    padding-top: 2em;
+    padding-left: 1.5em;
+    display: flex;
+    // align-items: center;
+    // flex-wrap: wrap;
+    // justify-content: center;
+}
+
 .card--education--section{
     padding-top: 3em;
     padding-bottom: 1em;
@@ -215,6 +223,17 @@ li{
     height: 1px;
 }
 
+
+.card--education button{
+    color: var(--secondaryTextColor);
+    font-weight: 300;
+    transition: 0.3s;
+}
+
+.card--education button:hover{
+    //color: rgb(30, 190,214);
+    color: var(--mainTextColor)
+}
 
 @media(max-width:600px){
 
@@ -293,4 +312,15 @@ li{
 .dialog-container-custom .mat-dialog-container {
 	padding: 0;
 	background: grey;
+}
+
+.course-buttons{
+    padding-bottom: 1rem;
+}
+
+
+.fidelity:hover{
+    transition: all .2s ease-in;
+    //color: rgb(30, 190,214);
+    color: rgb(31, 192, 23)
 }

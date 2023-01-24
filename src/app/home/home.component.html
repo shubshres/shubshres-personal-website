@@ -7,55 +7,53 @@
 
     <section class="section--page">
         <div fxLayout="row" fxLayoutAlign="space-evenly center">
-            <img id="profile-pic" src="./assets/profile_pic.png">
+            <img id="profile-pic" src="../../assets/new-profilepic.png">
             <div fxLayout="column" fxLayoutAlign="space-between">
                 <h1 id="user-name" style="padding-top: 2rem;">Shubhayu Shrestha</h1>
-                <p id="bio">Full Stack Developer @ Lockheed Martin</p>
+                <p id="bio">Full Stack Engineer @ <a class="fidelity" href="https://www.fidelity.com"> Fidelity Investments </a></p>
                 <div style="padding-bottom: 1rem">
                     <p id="email"><a href="mailto:shresthashubhayu@gmail.com" matTooltip="Send me an email!" matTooltipPosition="right" matTooltipHideDelay="100"
                 matTooltipShowDelay="100">📧 shresthashubhayu@gmail.com</a></p>
                 </div>
                 <div class="social-icons">
-                    <a class="social-icon" href="https://www.linkedin.com/in/shubhayu-shrestha" matTooltip="LinkedIn"
+                    <a class="social-icon" href="https://www.linkedin.com/in/shubhayu-shrestha" target="_blank" matTooltip="LinkedIn"
                         [matTooltipShowDelay]="100" [matTooltipHideDelay]="100"><img
-                            src="../../assets/icons/LinkedIn-Logos/linkedin32x32.png"></a>
-                    <a class="social-icon" href="https://github.com/shubshres" matTooltip="GitHub" [matTooltipShowDelay]="100"
+                            src="../../assets/icons/LinkedIn-Logos/linkedin.png" style="height: 32px"></a>
+                    <a class="social-icon" href="https://github.com/shubshres" target="_blank" matTooltip="GitHub" [matTooltipShowDelay]="100"
                         [matTooltipHideDelay]="100"><img src="../../assets/icons/GitHub-Mark/PNG/GitHub-Mark-32px.png"></a>
+                    <!-- <a class="social-icon" href="https://www.instagram.com/shubshres/" matTooltip="Instagram" [matTooltipShowDelay]="100"
+                        [matTooltipHideDelay]="100"><img src="../../assets/icons/instagram.png" style="width: 32px; height: 32px"></a> -->
+                    <a class="social-icon" href="https://drive.google.com/file/d/1t687PCufgxdJDtuQs_TMrauJVPzBkzvT/view?usp=sharing" target="_blank" matTooltip="Resume" [matTooltipShowDelay]="100"
+                        [matTooltipHideDelay]="100"><img src="../../assets/icons/resume.png" style="width: 32px; height: 32px"></a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- <div class="line-break"></div>
-    <section class="section--page">
-        <h2>GitHub</h2>
-        <img src="https://ghchart.rshah.org/shubshres" alt="My GitHub Chart" />
-    </section> -->
-
     <section class="section--page">
         <h2>My Projects</h2>
         <div class="card--project">
-            <button class="project-button" mat-button [disableRipple]="true" (click)="openBinBuddy()"><span>🗑️ &nbsp;</span>Bin Buddy</button>
+            <button mat-button [disableRipple]="true" (click)="openBinBuddy()"><span>🗑️ &nbsp;</span>Bin Buddy</button>
             <!-- <a href="https://github.com/shubshres/Bin-Buddy"><span>🗑️ &nbsp;</span>Bin Buddy</a> -->
         </div>
         <div class="card--project">
-            <button class="project-button" mat-button [disableRipple]="true" (click)="openAva()"><span>🎙 &nbsp;</span>Ava (Voice Assistant)</button>
+            <button mat-button [disableRipple]="true" (click)="openAva()"><span>🎙 &nbsp;</span>Ava (Voice Assistant)</button>
             <!-- <a href="https://github.com/shubshres/Ava"><span>🎙 &nbsp;</span>Ava (Voice Assistant)</a> -->
         </div>
         <div class="card--project">
-            <button class="project-button" mat-button [disableRipple]="true" (click)="openCarRentalDatabase()"><span>🚗 &nbsp;</span>Car Rental Database</button>
+            <button mat-button [disableRipple]="true" (click)="openCarRentalDatabase()"><span>🚗 &nbsp;</span>Car Rental Database</button>
             <!-- <a href="https://github.com/shubshres/CarRentalDatabase"><span>🚗 &nbsp;</span>Car Rental Database</a> -->
         </div>
         <div class="card--project">
-            <button class="project-button" mat-button [disableRipple]="true" (click)="openStockAlert()"><span>📈 &nbsp;</span>Stock Trading Alert</button>
+            <button mat-button [disableRipple]="true" (click)="openStockAlert()"><span>📈 &nbsp;</span>Stock Trading Alert</button>
             <!-- <a href="https://github.com/shubshres/Stock-Trading-Alert"><span>📈 &nbsp;</span>Stock Trading Alert</a> -->
         </div>
         <div class="card--project">
-            <button class="project-button" mat-button [disableRipple]="true" (click)="openTeachingToddlers()"><span>📓 &nbsp;</span>Teaching Toddlers App</button>
+            <button mat-button [disableRipple]="true" (click)="openTeachingToddlers()"><span>📓 &nbsp;</span>Teaching Toddlers App</button>
             <!-- <a href="https://github.com/srisubhashp/littlehopper-AndroidApplication"><span>📓 &nbsp;</span>Teaching Toddlers App</a> -->
         </div>
         <div class="card--project">
-            <button class="project-button" mat-button [disableRipple]="true" routerLink="/projects"><span> &nbsp;</span><u>All Projects</u></button>
+            <button mat-button [disableRipple]="true" routerLink="/projects"><span> &nbsp;</span><u>All Projects</u></button>
             <!-- <a href="https://github.com/shubshres?tab=repositories"><span> &nbsp;</span><u>All Projects</u></a> -->
         </div>
     </section>
@@ -65,7 +63,7 @@
         <div id="wrapper--techstack__items">
             <div class="card--techstack" matTooltip="Languages" matTooltipPosition="above" matTooltipHideDelay="300"
                 matTooltipShowDelay="300"><span>Python, C++, C, Java, TypeScript, JavaScript, CSS, C#, R, ARM
-                    Assembly</span></div>
+                    Assembly, Swift</span></div>
             <div class="card--techstack" matTooltip="Frameworks" matTooltipPosition="above" matTooltipHideDelay="300"
                 matTooltipShowDelay="300"><span>Angular, Ionic, React.js, React Native, Bootstrap, NgRx, Socket.io</span>
             </div>
@@ -74,8 +72,8 @@
             <div class="card--techstack" matTooltip="Data" matTooltipPosition="above" matTooltipHideDelay="300"
                 matTooltipShowDelay="300"><span>SQLite3, Google Firebase, MongoDB</span></div>
             <div class="card--techstack" matTooltip="Tools/Technologies" matTooltipPosition="above"
-                matTooltipHideDelay="300" matTooltipShowDelay="300"><span>Kubernetes, Docker, Git, GitHub, Azure DevOps,
-                    JIRA, Unity, Unreal Engine, Figma, Android Studio, Drupal, ROS Kinetic, Tkinter, Junit</span></div>
+                matTooltipHideDelay="300" matTooltipShowDelay="300"><span>JIRA, Unity, Unreal Engine, JUnit, Figma, Kubernetes, Docker, Git,
+                    Azure DevOps, Android Studio, Drupal, ROS Kinetic, Tkinter, cPanel</span></div>
             <div class="card--techstack" matTooltip="Operating Systems" matTooltipPosition="above" matTooltipHideDelay="300"
                 matTooltipShowDelay="300"><span>macOS, Windows, Linux/Ubuntu</span></div>
         </div>
@@ -84,24 +82,50 @@
     <section id="work-history-wrapper" class="section--page">
         <h2>Experience</h2>
         <div class="card--work-history">
+            <div><strong>Fidelity Investments - Westlake, TX </strong></div>
+            <p>Software Engineer</p>
+            <div>
+                <p>January 2023 - Present</p>
+            </div>
+
+            <p>Software Engineer at Fidelity Investments working in Customer Data and Marketing Technology</p>
+
+            <p>Tech Stack</p>
+            <ul>
+                <li>Java, SQL</li>
+            </ul>
+
+            <p>Skills</p>
+            <ul>
+                <!-- <li>Deployed code into public cloud and/or on-Premise infrastructure</li> -->
+                <!-- <li>Gained experience with DevOps practices</li> -->
+                <li>Gained a stronger understanding of Data Structures and Design Patterns</li>
+                <li>Further practiced communication skills and worked with documentaiton, flow charts, design diagrams, charts, and commented on code</li>
+                <li>Worked under Agile practices</li>
+                <li>Gained experience working with Git based version control systems</li>
+                <!-- <li>Gained insight on deployment tools like Jenkins, Deploy, NPM, Maven etc</li> -->
+            </ul>
+
+        </div>
+        <div class="card--work-history">
             <div><strong>Lockheed Martin Corporation - Fort Worth, TX </strong></div>
             <p>Full Stack Developer - Intern</p>
             <div>
-                <p>May 2022 - Present</p>
+                <p>May 2022 - January 2023</p>
             </div>
 
-            <p>Joint All-Domain Operations (JADO) Readiness Program</p>
+            <p>Joint All-Domain Operations (JADO) Readiness Program Project</p>
             <ul>
                 <li>Developed an open source Minimal Viable Product (MVP) using Angular, Flask, Socket.io, Kubernetes, and Docker to provide an
                 interface for calculating JADO Readiness for multiple projects and systems</li>
-                <li>Used CI/CD pipelines to improve the software development process</li>    
+                <li>Used CI/CD pipelines to improve the software development process</li>
                 <li>Developed following the agile development process and used JIRA to manage stories</li>
                 <li>Implemented Socket.io to show live changes between users</li>
                 <li>Implemented NgRx to reduce API calls, improving the efficiency of the application</li>
             </ul>
             <p>Training/Miscellaneous</p>
             <ul>
-                <li>Accepted in Lockheed Martin's AI/ML Fundamentals Program</li>
+                <li>Trained in Lockheed Martin's AI/ML Fundamentals Program</li>
                 <li>Gained experience in development of AR/VR simulations through Unity</li>
             </ul>
         </div>
@@ -111,13 +135,13 @@
             <div>
                 <p>April 2021 - May 2022</p>
             </div>
-            <p>Worked as an undergraduate researcher at The University of Texas at Arlington's Heracleia Human-Centered Computing Lab gaining exposure to Robotics, Reinforcement Learning, and Contrastive Learning methodologies.</p>
+            <p>Worked as an undergraduate researcher at The University of Texas at Arlington's Heracleia Human-Centered Computing Lab gaining exposure to Robotics, Reinforcement Learning, and Contrastive Learning methodologies. </p>
             <p><a href="https://dl.acm.org/doi/abs/10.1145/3529190.3534731" matTooltip="Check out the publication!" matTooltipPosition="right" matTooltipHideDelay="300"
-                matTooltipShowDelay="300">Traversability Estimation Framework</a></p>
+                matTooltipShowDelay="300">Traversability Estimation Framework </a></p>
             <ul>
                 <li>Created a framework that blends self-supervised contrastive pre-training with semi-supervised learning using
                 fine-tuning, as a means to perform successful image classification for traversability estimation purposes in an indoor
-                environment scenario while addressing the small size of the collected dataset</li> 
+                environment scenario while addressing the small size of the collected dataset</li>
                 <li>This work was completed as an REU working under PhD Student Christos Sevastopoulos</li>
                 <li>Presented as a poster paper at the international conference PETRA 2022</li>
             </ul>
@@ -134,20 +158,42 @@
             </ul>
         </div>
     </section>
-    
+
     <section id="work-history-wrapper" class="card--education--section">
         <h2>Education</h2>
         <div class="card--education" fxLayout="row" fxLayoutAlign="space-around start">
             <div><strong>The University of Texas at Arlington</strong></div>
             <div>
                 <p>Bachelor of Science, Software Engineering</p>
-                <p>GPA: 3.84/4.0</p>
+                <p>GPA: 3.85/4.0</p>
                 <p>Magna Cum Laude</p>
                 <p>College of Engineering Dean's List</p>
                 <p>Maverick Academic Scholarship</p>
             </div>
             <div><p>August 2019 - December 2022</p> </div>
-        </div>
-    </section>
-</div>
 
+            <div class="card--education--courses" fxLayout="row" fxLayoutAlign="space-around start">
+                <div>
+                    <strong>Program Coursework</strong>
+                </div>
+                <div>
+                    <button class="course-buttons" mat-button [disableRipple]="true">Software Design Patterns</button>
+                    <button class="course-buttons" mat-button [disableRipple]="true">Information Security</button>
+                    <button class="course-buttons" mat-button [disableRipple]="true">Software Testing</button>
+                </div>
+                <div>
+                    <button class="course-buttons" mat-button [disableRipple]="true">Computer Network Organization</button>
+                    <button class="course-buttons" mat-button [disableRipple]="true">Software Project Management</button>
+                    <button class="course-buttons" mat-button [disableRipple]="true">Quantitative Computer Architecture</button>
+                </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- <div class="line-break"></div>
+    <section class="section--page">
+        <h2><a href="https://github.com/shubshres" matTooltip="Visit my GitHub page?" matTooltipPosition="right" matTooltipHideDelay="300"
+            matTooltipShowDelay="300">GitHub</a></h2>
+        <img src="https://ghchart.rshah.org/shubshres" alt="My GitHub Chart" />
+    </section> -->
+</div>
