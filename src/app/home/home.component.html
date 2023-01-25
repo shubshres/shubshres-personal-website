@@ -16,15 +16,16 @@
                 matTooltipShowDelay="100">📧 shresthashubhayu@gmail.com</a></p>
                 </div>
                 <div class="social-icons">
-                    <a class="social-icon" href="https://www.linkedin.com/in/shubhayu-shrestha" target="_blank" matTooltip="LinkedIn"
+                    <a class="social-icon" href="https://www.linkedin.com/in/shubhayu-shrestha" target="_blank" matTooltip="LinkedIn" matTooltipPosition="below"
                         [matTooltipShowDelay]="100" [matTooltipHideDelay]="100"><img
                             src="../../assets/icons/LinkedIn-Logos/linkedin.png" style="height: 32px"></a>
-                    <a class="social-icon" href="https://github.com/shubshres" target="_blank" matTooltip="GitHub" [matTooltipShowDelay]="100"
+                    <a class="social-icon" href="https://github.com/shubshres" target="_blank" matTooltip="GitHub" [matTooltipShowDelay]="100" matTooltipPosition="below"
                         [matTooltipHideDelay]="100"><img src="../../assets/icons/GitHub-Mark/PNG/GitHub-Mark-32px.png"></a>
                     <!-- <a class="social-icon" href="https://www.instagram.com/shubshres/" matTooltip="Instagram" [matTooltipShowDelay]="100"
                         [matTooltipHideDelay]="100"><img src="../../assets/icons/instagram.png" style="width: 32px; height: 32px"></a> -->
-                    <a class="social-icon" href="https://drive.google.com/file/d/1t687PCufgxdJDtuQs_TMrauJVPzBkzvT/view?usp=sharing" target="_blank" matTooltip="Resume" [matTooltipShowDelay]="100"
-                        [matTooltipHideDelay]="100"><img src="../../assets/icons/resume.png" style="width: 32px; height: 32px"></a>
+                    <a class="social-icon" href="https://drive.google.com/file/d/1t687PCufgxdJDtuQs_TMrauJVPzBkzvT/view?usp=sharing" target="_blank" matTooltip="Resume"
+                        [matTooltipShowDelay]="100" matTooltipPosition="below" [matTooltipHideDelay]="100"><img src="../../assets/icons/resume.png"
+                        style="width: 32px; height: 32px"></a>
                 </div>
             </div>
         </div>
@@ -137,7 +138,7 @@
             </div>
             <p>Worked as an undergraduate researcher at The University of Texas at Arlington's Heracleia Human-Centered Computing Lab gaining exposure to Robotics, Reinforcement Learning, and Contrastive Learning methodologies. </p>
             <p><a href="https://dl.acm.org/doi/abs/10.1145/3529190.3534731" matTooltip="Check out the publication!" matTooltipPosition="right" matTooltipHideDelay="300"
-                matTooltipShowDelay="300">Traversability Estimation Framework </a></p>
+                matTooltipShowDelay="300">Traversability Estimation Framework 📎</a></p>
             <ul>
                 <li>Created a framework that blends self-supervised contrastive pre-training with semi-supervised learning using
                 fine-tuning, as a means to perform successful image classification for traversability estimation purposes in an indoor
@@ -164,7 +165,7 @@
         <div class="card--education" fxLayout="row" fxLayoutAlign="space-around start">
             <div><strong>The University of Texas at Arlington</strong></div>
             <div>
-                <p>Bachelor of Science, Software Engineering</p>
+                <p>Bachelor of Science, <a href="https://catalog.uta.edu/engineering/computer/undergraduate/">Software Engineering</a></p>
                 <p>GPA: 3.85/4.0</p>
                 <p>Magna Cum Laude</p>
                 <p>College of Engineering Dean's List</p>
@@ -177,14 +178,69 @@
                     <strong>Program Coursework</strong>
                 </div>
                 <div>
-                    <button class="course-buttons" mat-button [disableRipple]="true">Software Design Patterns</button>
-                    <button class="course-buttons" mat-button [disableRipple]="true">Information Security</button>
-                    <button class="course-buttons" mat-button [disableRipple]="true">Software Testing</button>
+                    <button class="course-buttons"
+                        mat-button [disableRipple]="true"
+                        matTooltip="CSE 4361 SOFTWARE DESIGN PATTERNS: In-depth study of software design patterns including description of patterns,
+                            design principles and techniques used by patterns as well as application of patterns
+                            to solving practical design problems. Team project."
+                        matTooltipPosition="right"
+                        matTooltipHideDelay="300"
+                        matTooltipShowDelay="300">
+                        Software Design Patterns
+                    </button>
+                    <button class="course-buttons"
+                        mat-button [disableRipple]="true"
+                        matTooltip="CSE 4380 INFORMATION SECURITY: Hands-on introduction to the basics of security. Includes system security,
+                            buffer overflows, a high-level overview of cryptography, firewalls and intrusion detection/prevention, malware,
+                            penetration testing, forensics, and system administration."
+                        matTooltipPosition="right"
+                        matTooltipHideDelay="300"
+                        matTooltipShowDelay="300">
+                        Information Security
+                    </button>
+                    <button class="course-buttons"
+                        mat-button [disableRipple]="true"
+                        matTooltip="CSE 4321 SOFTWARE TESTING: Study of software quality assurance, software testing process, methods,
+                        techniques and tools. Topics include formal review techniques, black box testing, white box testing, integration
+                        testing, acceptance testing, regression testing, performance testing, stress testing, and testing of
+                        object-oriented software."
+                        matTooltipPosition="right"
+                        matTooltipHideDelay="300"
+                        matTooltipShowDelay="300">
+                        Software Testing
+                    </button>
                 </div>
                 <div>
-                    <button class="course-buttons" mat-button [disableRipple]="true">Computer Network Organization</button>
-                    <button class="course-buttons" mat-button [disableRipple]="true">Software Project Management</button>
-                    <button class="course-buttons" mat-button [disableRipple]="true">Quantitative Computer Architecture</button>
+                    <button class="course-buttons"
+                        mat-button [disableRipple]="true"
+                        matTooltip="CSE 4344 COMPUTER NETWORK ORGANIZATION: Design and analysis of computer networks. Emphasis on the OSI
+                        architecture but discusses other schemes (e.g., ARPAnet). Data link control, local networks, protocols/architectures,
+                        network access protocols, transport protocols, internetworking, and ISDN. "
+                        matTooltipPosition="right"
+                        matTooltipHideDelay="300"
+                        matTooltipShowDelay="300">
+                        Computer Network Organization
+                    </button>
+                    <button class="course-buttons"
+                        mat-button [disableRipple]="true"
+                        matTooltip="CSE 4322 SOFTWARE PROJECT MANAGEMENT: Introduction to software project management. Issues include effort
+                        estimation and costing, project planning and scheduling, option analysis, software quality assurance, and formal
+                        technical reviews."
+                        matTooltipPosition="right"
+                        matTooltipHideDelay="300"
+                        matTooltipShowDelay="300">
+                        Software Project Management
+                    </button>
+                    <button class="course-buttons"
+                        mat-button [disableRipple]="true"
+                        matTooltip="CSE 4323 QUANTITATIVE COMPUTER ARCHITECTURE: Pipelined processors, parallel processors including shared and
+                        distributed memory, multicore, Very Long Instruction Word (VLIW) and graphics processors, memory and cache design,
+                        computer peripherals, and computer clusters. "
+                        matTooltipPosition="right"
+                        matTooltipHideDelay="300"
+                        matTooltipShowDelay="300">
+                        Quantitative Computer Architecture
+                    </button>
                 </div>
                 </div>
             </div>
