@@ -1,8 +1,4 @@
 <input type="hidden" #selection>
-<!-- <div class="terminal">
-<p>hello</p>
-</div> -->
-
 <div id="container--main">
 
     <section class="section--page">
@@ -12,6 +8,8 @@
                 <h1 id="user-name" style="padding-top: 2rem;">Shubhayu Shrestha</h1>
                 <p id="bio">Full Stack Engineer @ <a class="fidelity" href="https://www.fidelity.com"> Fidelity
                         Investments </a></p>
+                <!-- <p id="bio">Full Stack Engineer </p> -->
+                <p id="bio">M.S. Computer Science @ UT Austin '25 </p>
                 <div style="padding-bottom: 1rem">
                     <p id="email"><a href="mailto:shresthashubhayu@gmail.com" matTooltip="Send me an email!"
                             matTooltipPosition="right" matTooltipHideDelay="100" matTooltipShowDelay="100">📧
@@ -25,10 +23,8 @@
                     <a class="social-icon" href="https://github.com/shubshres" target="_blank" matTooltip="GitHub"
                         [matTooltipShowDelay]="100" matTooltipPosition="below" [matTooltipHideDelay]="100"><img
                             src="../../assets/icons/GitHub-Mark/PNG/GitHub-Mark-32px.png"></a>
-                    <!-- <a class="social-icon" href="https://www.instagram.com/shubshres/" matTooltip="Instagram" [matTooltipShowDelay]="100"
-                        [matTooltipHideDelay]="100"><img src="../../assets/icons/instagram.png" style="width: 32px; height: 32px"></a> -->
                     <a class="social-icon"
-                        href="https://drive.google.com/file/d/1t687PCufgxdJDtuQs_TMrauJVPzBkzvT/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1d4n38vNVFQYfQnF6scnfMAizY4Smi9tO/view?usp=sharing"
                         target="_blank" matTooltip="Resume" [matTooltipShowDelay]="100" matTooltipPosition="below"
                         [matTooltipHideDelay]="100"><img src="../../assets/icons/resume.png"
                             style="width: 32px; height: 32px"></a>
@@ -41,32 +37,26 @@
         <h2>My Projects</h2>
         <div class="card--project">
             <button mat-button [disableRipple]="true" (click)="openBinBuddy()"><span>🗑️ &nbsp;</span>Bin Buddy</button>
-            <!-- <a href="https://github.com/shubshres/Bin-Buddy"><span>🗑️ &nbsp;</span>Bin Buddy</a> -->
         </div>
         <div class="card--project">
             <button mat-button [disableRipple]="true" (click)="openAva()"><span>🎙 &nbsp;</span>Ava (Voice
                 Assistant)</button>
-            <!-- <a href="https://github.com/shubshres/Ava"><span>🎙 &nbsp;</span>Ava (Voice Assistant)</a> -->
         </div>
         <div class="card--project">
             <button mat-button [disableRipple]="true" (click)="openCarRentalDatabase()"><span>🚗 &nbsp;</span>Car Rental
                 Database</button>
-            <!-- <a href="https://github.com/shubshres/CarRentalDatabase"><span>🚗 &nbsp;</span>Car Rental Database</a> -->
         </div>
         <div class="card--project">
             <button mat-button [disableRipple]="true" (click)="openStockAlert()"><span>📈 &nbsp;</span>Stock Trading
                 Alert</button>
-            <!-- <a href="https://github.com/shubshres/Stock-Trading-Alert"><span>📈 &nbsp;</span>Stock Trading Alert</a> -->
         </div>
         <div class="card--project">
             <button mat-button [disableRipple]="true" (click)="openTeachingToddlers()"><span>📓 &nbsp;</span>Teaching
                 Toddlers App</button>
-            <!-- <a href="https://github.com/srisubhashp/littlehopper-AndroidApplication"><span>📓 &nbsp;</span>Teaching Toddlers App</a> -->
         </div>
         <div class="card--project">
             <button mat-button [disableRipple]="true" routerLink="/projects"><span> &nbsp;</span><u>All
                     Projects</u></button>
-            <!-- <a href="https://github.com/shubshres?tab=repositories"><span> &nbsp;</span><u>All Projects</u></a> -->
         </div>
     </section>
 
@@ -94,31 +84,48 @@
     </section>
 
     <section id="work-history-wrapper" class="section--page">
-        <h2>Experience</h2>
+        <h2>Work Experience</h2>
         <div class="card--work-history">
             <div><strong>Fidelity Investments - Westlake, TX </strong></div>
             <p>Software Engineer</p>
             <div>
-                <p>January 2023 - Present</p>
+                <p>January 2023 - March 2024</p>
             </div>
 
             <p>Software Engineer at Fidelity Investments working in Customer Data and Marketing Technology</p>
 
-            <p>Tech Stack</p>
+            <p>Technologies Used</p>
             <ul>
-                <li>Java, SQL</li>
+                <li>Java, Springboot, JUnit, Angular, Playwright, SQL, AWS, Docker, Kubernetes, JavaScript, Linux
+                    Servers, Salesforce Marketing Cloud, Jenkins CI/CD</li>
             </ul>
 
-            <p>Skills</p>
+            <p>What did I get out of this experience?</p>
             <ul>
-                <!-- <li>Deployed code into public cloud and/or on-Premise infrastructure</li> -->
-                <!-- <li>Gained experience with DevOps practices</li> -->
+                <li> Designed and developed Spring Boot REST APIs and microservices following software design patterns
+                    to
+                    process Fidelity customers' data. </li>
+                <li>Developed Java batch processors to transmit customer data from various business units' AWS S3
+                    Buckets to
+                    Salesforce Marketing Cloud, integration Fidelity customers into Salesforce Marketing Cloud Journeys.
+                </li>
+                <li>Followed strict testing protocols by creating and implementing functional and JUnit unit tests.</li>
+                <li>Improved a full-stack Angular, Java, and SQL web application, ensuring seamless communication
+                    between
+                    Fidelity's representatives and customers.</li>
+                <li>Enhanced Salesforce Marketing Cloud's Journey Builder by integrating web app components (Custom
+                    Activity)
+                    using JavaScript, Node.js, Docker, and a Linux server for efficient customer data handling.</li>
+                <li>Gained experience and managed DevOps operations, overseeing the development of CI/CD pipelines and
+                    implementing AWS, Jenkins,
+                    UDeploy, Docker, and Kubernetes.</li>
+                <li>Followed the Agile SDLC principles and utilized JIRA for project management.</li>
+                <li>Deployed code into public cloud</li>
                 <li>Gained a stronger understanding of Data Structures and Design Patterns</li>
                 <li>Further practiced communication skills and worked with documentaiton, flow charts, design diagrams,
                     charts, and commented on code</li>
-                <li>Worked under Agile practices</li>
-                <li>Gained experience working with Git based version control systems</li>
-                <!-- <li>Gained insight on deployment tools like Jenkins, Deploy, NPM, Maven etc</li> -->
+                <li>Worked with Git based version control systems</li>
+                <li>Gained experience with deployment tools like Jenkins, Deploy, NPM, Maven etc</li>
             </ul>
 
         </div>
@@ -126,8 +133,13 @@
             <div><strong>Lockheed Martin Corporation - Fort Worth, TX </strong></div>
             <p>Full Stack Developer - Intern</p>
             <div>
-                <p>May 2022 - January 2023</p>
+                <p>May 2022 - December 2022</p>
             </div>
+
+            <p>Technologies Used</p>
+            <ul>
+                <li>Angular, Flask, Python, MongoDB, Docker, Kubernetes, Argo CD, Unity</li>
+            </ul>
 
             <p>Joint All-Domain Operations (JADO) Readiness Program Project</p>
             <ul>
@@ -146,7 +158,8 @@
             </ul>
         </div>
         <div class="card--work-history">
-            <div><strong>The University of Texas at Arlington - Arlington, TX </strong></div>
+            <div><strong><a class="lab" href="https://heracleia.uta.edu/"><strong>Heracleia Human-Centered Computing
+                            Lab</strong></a> - Arlington, TX </strong></div>
             <p>Undergraduate Researcher</p>
             <div>
                 <p>April 2021 - May 2022</p>
@@ -154,19 +167,26 @@
             <p>Worked as an undergraduate researcher at The University of Texas at Arlington's Heracleia Human-Centered
                 Computing Lab gaining exposure to Robotics, Reinforcement Learning, and Contrastive Learning
                 methodologies. </p>
-            <p><a href="https://dl.acm.org/doi/abs/10.1145/3529190.3534731" matTooltip="Check out the publication!"
-                    matTooltipPosition="right" matTooltipHideDelay="300" matTooltipShowDelay="300">Traversability
+            <p><a class="fidelity" href="https://dl.acm.org/doi/abs/10.1145/3529190.3534731"
+                    matTooltip="Check out the publication!" matTooltipPosition="right" matTooltipHideDelay="300"
+                    matTooltipShowDelay="300">Traversability
                     Estimation Framework 📎</a></p>
             <ul>
-                <li>Created a framework that blends self-supervised contrastive pre-training with semi-supervised
+                <li>Assisted in and conducted research at the NSF Funded HCL lab which specializes in human-computer
+                    interaction, including human-robot collaboration systems, medical imaging, and bioinformatics.</li>
+                <!-- <li>Created a framework that blends self-supervised contrastive pre-training with semi-supervised
                     learning using
                     fine-tuning, as a means to perform successful image classification for traversability estimation
                     purposes in an indoor
-                    environment scenario while addressing the small size of the collected dataset</li>
+                    environment scenario while addressing the small size of the collected dataset</li> -->
+                <li>Published and presented a paper that focused on creating a traversability estimation framework for
+                    an
+                    automated wheelchair utilizing contrastive learning methodologies to distinguish whether a path was
+                    traversable or not utilizing ROS Kinetic and Python scripts for data collection</li>
                 <li>This work was completed as an REU working under PhD Student Christos Sevastopoulos</li>
                 <li>Presented as a poster paper at the international conference PETRA 2022</li>
             </ul>
-            <p>Reinforcement Learning Project (Unfinished)</p>
+            <p>Reinforcement Learning Project (Discontinued)</p>
             <ul>
                 <li>Utilized ROS Kinetic to control a Sawyer Robot to pick up blocks utilizing reinforcement learning
                 </li>
@@ -184,9 +204,49 @@
     <section id="work-history-wrapper" class="card--education--section">
         <h2>Education</h2>
         <div class="card--education" fxLayout="row" fxLayoutAlign="space-around start">
+            <div><strong>The University of Texas at Austin</strong></div>
+            <div>
+                <p><a href="https://www.cs.utexas.edu/graduate-program/masters-program"> Master of Science, Computer
+                        Science</a></p>
+                <p>Current GPA: 4.0/4.0</p>
+            </div>
+            <div>
+                <p>August 2023 - May 2025 (Expected)</p>
+            </div>
+
+            <div class="card--education--courses" fxLayout="row" fxLayoutAlign="space-around start">
+                <div>
+                    <strong>Program Coursework</strong>
+                </div>
+                <div>
+                    <button class="course-buttons" mat-button [disableRipple]="true"
+                        matTooltip="The Case Studies in Machine Learning course presents a broad introduction to 
+                    the principles and paradigms underlying machine learning, including presentations of its main approaches, overviews of its most important research themes and 
+                    new challenges faced by traditional machine learning methods. This course highlights major concepts, techniques, algorithms, and applications in machine learning, 
+                    from topics such as supervised and unsupervised learning to major recent applications in housing market analysis and transportation. Through this course, students 
+                    will gain experience by using machine learning methods and developing solutions for a real-world data analysis problems from practical case studies."
+                        matTooltipPosition="right" matTooltipHideDelay="300" matTooltipShowDelay="300">
+                        Case Studies in Machine Learning
+                    </button>
+                </div>
+                <div>
+                    <button class="course-buttons" mat-button [disableRipple]="true"
+                        matTooltip="Students will study Android APIs and learn to build significant Android applications. 
+                                            The course will have a practical focus, with significant in-class programming, programming assignments and a large project (optionally with a partner). 
+                                            The course philosophy is that programming is learned by doing. While the course focuses on Android, we will learn general principles of software engineering and 
+                                            mobile app development. The course assumes familiarity with programming and object-oriented terminology. The course is taught entirely in Kotlin, the modern 
+                                            sibling of Java. We will spend a bit of time reviewing Kotlin, but you are expected to be familiar enough with Java that the transition will be seamless. 
+                                            The course does not assume any previous experience with Android programming." matTooltipPosition="right" matTooltipHideDelay="300"
+                        matTooltipShowDelay="300">
+                        Android Programming
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="card--education" fxLayout="row" fxLayoutAlign="space-around start">
             <div><strong>The University of Texas at Arlington</strong></div>
             <div>
-                <p>Bachelor of Science, <a href="https://catalog.uta.edu/engineering/computer/undergraduate/">Software
+                <p><a href="https://catalog.uta.edu/engineering/computer/undergraduate/">Bachelor of Science, Software
                         Engineering</a></p>
                 <p>GPA: 3.85/4.0</p>
                 <p>Magna Cum Laude</p>

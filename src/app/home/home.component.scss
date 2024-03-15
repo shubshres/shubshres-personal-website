@@ -192,6 +192,13 @@ li{
     padding-left: 2em;
 }
 
+.card--work-history{
+    border-left: 1px solid var(--mainBorderColor);
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding-left: 2em;
+}
+
 .card--education{
     border-left: 1px solid var(--mainBorderColor);
     margin-top: 3em;
@@ -208,6 +215,7 @@ li{
     padding-top: 2em;
     padding-left: 1.5em;
     display: flex;
+    text-align: left;
     // align-items: center;
     // flex-wrap: wrap;
     // justify-content: center;
@@ -323,6 +331,11 @@ li{
     transition: all .2s ease-in;
     //color: rgb(30, 190,214);
     color: rgb(31, 192, 23)
+}
+
+.lab:hover{
+    transition: all .2s ease-in;
+    color: orange;
 }
 
 .degree-tooltip{
