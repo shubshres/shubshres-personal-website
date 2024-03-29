@@ -194,10 +194,6 @@ section {
   font-weight: 600;
 }
 
-.section__text__p1 {
-  text-align: center;
-}
-
 .section__text__p2 {
   font-size: 1.75rem;
 }
@@ -207,7 +203,20 @@ section {
   margin-bottom: 1rem;
 }
 
+.section__text__p1 {
+  text-align: center;
+}
+
 .title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.hello_section__text__p1 {
+  text-align: center;
+}
+
+.hello_title {
   font-size: 3rem;
   text-align: center;
 }
@@ -281,6 +290,7 @@ section {
 }
 
 .about-containers {
+  flex-wrap: wrap;
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
@@ -298,6 +308,7 @@ section {
 
 .about-pic {
   border-radius: 5rem;
+  align-items: center;
 }
 
 .arrow {
@@ -314,6 +325,7 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  min-width: 15rem;
 }
 
 .section-container {
