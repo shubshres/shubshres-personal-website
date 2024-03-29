@@ -379,10 +379,37 @@ article .icon {
   cursor: default;
 }
 
+/* WORK HISTORY SECTION */
+#work-history {
+  position: relative;
+}
+
+.work-history {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.card--work-history {
+  border-left: 1px solid;
+  border-left-color: grey;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  padding-left: 2em;
+}
+
+.card--work-history li {
+  margin-left: 2em;
+}
+
+.card--work-history p {
+  margin-top: 1em;
+}
+
 /* PROJECTS SECTION */
 
 #projects {
   position: relative;
+  margin-top: 5rem;
 }
 
 .color-container {
