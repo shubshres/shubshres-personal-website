@@ -5,7 +5,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>// shubshres</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
 </head>
@@ -13,7 +14,7 @@
 <body>
 
     <nav id="desktop-nav">
-        <div class="logo">// shubshres</div>
+        <div class="logo"><a href="#profile" style="color: grey;">// shubshres</a></div>
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
@@ -51,7 +52,8 @@
             <p class="section__text__p2">Full Stack Developer</p>
             <p class="section__text__p3">M.S. Computer Science @ UT Austin '25</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="location.href='https://linkedin.com/in/shubhayu-shrestha/'">
+                <button class="btn btn-color-2"
+                    onclick="location.href='https://drive.google.com/file/d/1d4n38vNVFQYfQnF6scnfMAizY4Smi9tO/view'">
                     Resume
                 </button>
                 <button class="btn btn-color-1" onclick="location.href='#contact'">
@@ -84,9 +86,9 @@
                         <img src="./assets/education.png" alt="Education icon" class="icon" />
                         <h3>Education</h3>
                         <p>
-                            Bachelor of Science, Software Engineering @ UT Arlington '22'
+                            Bachelor of Science, Software Engineering @ UT Arlington '22
                             <br />
-                            Master of Science, Computer Science @ UT Austin ' 25'
+                            Master of Science, Computer Science @ UT Austin ' 25
                         </p>
                     </div>
                 </div>
@@ -211,28 +213,29 @@
             <p>Technologies Used</p>
             <ul>
                 <li>Java, Springboot, JUnit, Angular, Playwright, SQL, AWS, Docker, Kubernetes, JavaScript, Linux
-                    Servers, Salesforce Marketing Cloud, Jenkins CI/CD</li>
+                    Servers, Salesforce Marketing Cloud, Jenkins CI/CD, JIRA, Jest</li>
             </ul>
 
             <p>What did I get out of this experience?</p>
             <ul>
-                <li> Designed and developed Spring Boot REST APIs and microservices following software design patterns
-                    to
-                    process Fidelity customers' data. </li>
-                <li>Developed Java batch processors to transmit customer data from various business units' AWS S3
-                    Buckets to
-                    Salesforce Marketing Cloud, integration Fidelity customers into Salesforce Marketing Cloud Journeys.
+                <li>Developed Spring Batch processors to transmit customer data from AWS S3 Buckets to Salesforce
+                    Marketing Cloud,
+                    integrating Fidelity customers, leveraging IAM Roles, KMS Keys, SNS Topics, and SQS Queues.
                 </li>
+                <li>Designed and implemented Spring Boot APIs and microservices for efficient processing of customer
+                    data.</li>
                 <li>Followed strict testing protocols by creating and implementing functional and JUnit unit tests.</li>
-                <li>Improved a full-stack Angular, Java, and SQL web application, ensuring seamless communication
-                    between
-                    Fidelity's representatives and customers.</li>
+                <li>Executed rigorous testing methodologies, developing functional, JUnit, and Jest tests to ensure
+                    system reliability.</li>
                 <li>Enhanced Salesforce Marketing Cloud's Journey Builder by integrating web app components (Custom
                     Activity)
                     using JavaScript, Node.js, Docker, and a Linux server for efficient customer data handling.</li>
                 <li>Gained experience and managed DevOps operations, overseeing the development of CI/CD pipelines and
                     implementing AWS, Jenkins,
                     UDeploy, Docker, and Kubernetes.</li>
+                <li>Spearheaded application migrations from Linux servers to our internal cloud Kubernetes Application
+                    Deployer, promoting
+                    cloud agnostics.</li>
                 <li>Followed the Agile SDLC principles and utilized JIRA for project management.</li>
                 <li>Deployed code into public cloud</li>
                 <li>Gained a stronger understanding of Data Structures and Design Patterns</li>
@@ -251,7 +254,7 @@
                 <li>Angular, Flask, Python, MongoDB, Docker, Kubernetes, Argo CD, Unity</li>
             </ul>
 
-            <p>Joint All-Domain Operations (JADO) Readiness Program Project</p>
+            <p>Joint All-Domain Operations (JADO) Readiness Web Application</p>
             <ul>
                 <li>Developed an open source Minimal Viable Product (MVP) using Angular, Flask, Socket.io, Kubernetes,
                     and Docker to provide an
@@ -260,6 +263,7 @@
                 <li>Developed following the agile development process and used JIRA to manage stories</li>
                 <li>Implemented Socket.io to show live changes between users</li>
                 <li>Implemented NgRx to reduce API calls, improving the efficiency of the application</li>
+                <li>Worked closely with the team's UI/UX researcher to design the web application</li>
             </ul>
             <p>Training/Miscellaneous</p>
             <ul>
@@ -310,12 +314,149 @@
             </ul>
         </div>
     </section>
-    <br>
-    <br>
+
     <section id="projects">
         <h1 class="title">Projects</h1>
         <div class="experience-details-container">
+            <br>
+            <p style="text-align: center;">Below are some of the projects I have worked on! More projects can be found
+                on my <a href="https://github.com/shubshres"></a>GitHub!</p>
+            <br>
             <div class="about-containers">
+                <div class="details-container color-container">
+                    <h2 class="experience-sub-title project-title">📈 Stock Market Prediction with LSTM </h2>
+                    <div>
+                        <p>Tech Stack: Python, TensorFlow (for implementing LSTM model), Pandas for data manipulation
+                            and
+                            Matplotlib for data visualization</p>
+                        <br>
+                        <p>Algorithms Used: Long Short-Term Memory (LSTM) networks</p>
+                        <br>
+                        <p>
+                            Conducted a study researching using LSTM networks to predict stock market trends using
+                            historical data from Tesla (TSLA) and Apple
+                            (AAPL). I found that the LSTM accurately replicated past trends and made reasonably accurate
+                            predictions for future stock movements. The model's low error metrics demonstrated its
+                            effectiveness, suggesting its
+                            potential for practical financial forecasting applications.
+                        </p>
+                    </div>
+                    <br>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/shubshres/Stock-Market-Prediction-With-LSTM'">
+                            Github
+                        </button>
+                    </div>
+                </div>
+
+                <div class="details-container color-container">
+                    <h2 class="experience-sub-title project-title">💬 iChatWithGPT </h2>
+                    <div>
+                        <p>Tech Stack: Swift, ChatGPT API</p>
+                        <br>
+                        <p>
+                            Created a chat user interface for ChatGPT, an AI language model, using Swift. This
+                            application mimics Apple's Messages app where users can chat with the AI model and receive
+                            responses in real-time.
+                        </p>
+                    </div>
+                    <br>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/shubshres/iChatWithGPT'">
+                            Github
+                        </button>
+                    </div>
+                </div>
+
+                <div class="details-container color-container">
+                    <h2 class="experience-sub-title project-title">🙃 EmojiPedia </h2>
+                    <div>
+                        <p>Tech Stack: React.js</p>
+                        <br>
+                        <p>
+                            Created a web application that allows users to search for emojis and their meanings. This
+                            application was created using React.js and utilizes the emoji-dictionary npm package.
+                        </p>
+                    </div>
+                    <br>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/shubshres/emojipedia'">
+                            Github
+                        </button>
+                    </div>
+                </div>
+
+                <div class="details-container color-container">
+                    <h2 class="experience-sub-title project-title">🔐 Authentication Exploration</h2>
+                    <div>
+                        <p>Tech Stack: Node.js</p>
+                        <br>
+                        <p>
+                            Created a web application that allows users to sign up, log in, and log out. This
+                            application was created using Node.js and utilizes the bcrypt npm package for password
+                            hashing.
+                        </p>
+                        <br>
+                        <p>Explored the different levels of authenticaiton security</p>
+                        <br>
+                        <p>Level 1: Registering Users with Email and Password</p>
+                        <p>Level 2: Encryption and Hashing</p>
+                        <p>Level 3: Salting Passwords for Improved Encryption</p>
+                        <p>Level 4: Managing Cookies and Sessions</p>
+                        <p>Level 5: OAuth: Implementing "Sign In with Google” and "Sign In with Facebook"</p>
+                    </div>
+                    <br>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/shubshres/Authentication-Exploration'">
+                            Github
+                        </button>
+                    </div>
+                </div>
+
+                <div class="details-container color-container">
+                    <h2 class="experience-sub-title project-title">📝 Keeper </h2>
+                    <div>
+                        <p>Tech Stack: React.js</p>
+                        <br>
+                        <p>
+                            Created a web application that allows users to create notes. This application was created
+                            using React.js and utilizes the Material-UI npm package.
+                            Hooks were also used to manage the state of the application. Users can add, delete, and edit
+                            notes. The notes are stored in an array and are rendered on the screen.
+                        </p>
+                    </div>
+                    <br>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/shubshres/Keeper'">
+                            Github
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="details-container color-container">
+                    <h2 class="experience-sub-title project-title">🧍‍♂️ Student Data Modifier </h2>
+                    <div>
+                        <p>Tech Stack: SpringBoot, PostgreSQL</p>
+                        <br>
+                        <p>
+                            Developed a Spring Boot REST API that allows users to modify student data. This API allows
+                            users to add, delete, and update student data. The API is connected to a PostgreSQL database
+                            that stores the student data.
+                        </p>
+                    </div>
+                    <br>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/shubshres/Student-Data-API'">
+                            Github
+                        </button>
+                    </div>
+                </div>
 
                 <div class="details-container color-container">
                     <h2 class="experience-sub-title project-title">🗑️ Bin Buddy </a></h2>
@@ -389,7 +530,7 @@
                 </div>
 
                 <div class="details-container color-container">
-                    <h2 class="experience-sub-title project-title">📈 Stock Trading Alert </a></h2>
+                    <h2 class="experience-sub-title project-title">🚨 Stock Trading Alert </a></h2>
                     <div>
                         <p>Tech Stack: Python (w/ Twillio API, Alphavantage API, News API)</p>
                         <br>
@@ -411,6 +552,27 @@
                         </button>
                     </div>
                 </div>
+
+            <div class="details-container color-container">
+                <h2 class="experience-sub-title project-title">👮‍♂️ Security Camera </h2>
+                <div>
+                    <p>Tech Stack: Python, OpenCV, Twillio</p>
+                    <br>
+                    <p>
+                        Developed a security camera program in Python that will send an SMS message if a person is
+                        detected in the camera's view. This program was created utilizing the OpenCV library for the
+                        camera, and the Twilio API to send the SMS messages to send the user the change in stock value.
+                        This project is currently being hosted on PythonAnywhere for it to run 24/7.
+                    </p>
+                </div>
+                <br>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/shubshres/Security-Camera'">
+                        Github
+                    </button>
+                </div>
+            </div>
 
                 <div class="details-container color-container">
                     <h2 class="experience-sub-title project-title">🐇 Little Hopper</a></h2>
@@ -455,7 +617,8 @@
             <div class="nav-links-container">
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#experience">Technical Skills</a></li>
+                    <li><a href="#work-history">Work Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>

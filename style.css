@@ -62,17 +62,24 @@ a {
 
 a:hover {
   color: grey;
+  text-decoration-color: rgb(181, 181, 181);
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  /* text-decoration-color: rgb(31, 192, 23); 
+  color: rgb(31, 192, 23);  */
 }
 
 .logo {
   font-size: 2rem;
+  color: grey;
+  transition: 0.3s;
 }
 
 .logo:hover {
   cursor: default;
+  transition: 0.3s;
+  /* color: rgb(31, 192, 23); */
+  cursor: pointer;
 }
 
 /* HAMBURGER MENU */
@@ -176,6 +183,8 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
+  margin-top: 2rem;
+  position: relative;
 }
 
 .section__pic-container {
@@ -210,6 +219,7 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+  padding-top: 2rem;
 }
 
 .hello_section__text__p1 {
@@ -286,7 +296,9 @@ section {
 /* ABOUT SECTION */
 
 #about {
+  margin-top: 2rem;
   position: relative;
+  height: fit-content;
 }
 
 .about-containers {
@@ -342,7 +354,9 @@ section {
 /* EXPERIENCE SECTION */
 
 #experience {
+  margin-top: 2rem;
   position: relative;
+  height: fit-content;
 }
 
 .experience-sub-title {
@@ -381,12 +395,15 @@ article .icon {
 
 /* WORK HISTORY SECTION */
 #work-history {
+  margin-top: 2rem;
   position: relative;
+  height: fit-content;
 }
 
 .work-history {
   padding-top: 3rem;
   padding-bottom: 1rem;
+  height: fit-content;
 }
 
 .card--work-history {
@@ -395,21 +412,25 @@ article .icon {
   margin-top: 3em;
   margin-bottom: 3em;
   padding-left: 2em;
+  height: fit-content;
 }
 
 .card--work-history li {
   margin-left: 2em;
+  height: fit-content;
 }
 
 .card--work-history p {
   margin-top: 1em;
+  height: fit-content;
 }
 
 /* PROJECTS SECTION */
 
 #projects {
+  margin-top: 2rem;
   position: relative;
-  margin-top: 5rem;
+  height: fit-content;
 }
 
 .color-container {
@@ -439,7 +460,6 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
 }
 
 .contact-info-upper-container {

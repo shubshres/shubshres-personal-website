@@ -17,9 +17,26 @@
   #projects {
     height: fit-content;
   }
+
+  .title {
+    padding-top: 2rem;
+  }
 }
 
 @media screen and (max-width: 1200px) {
+
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+
+
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
   #desktop-nav {
     display: none;
   }
@@ -54,8 +71,12 @@
   }
 
   .section__pic-container {
+    display: flex;
+    width: auto;
     width: 275px;
     height: 275px;
+    justify-content: center;
+
     margin: 0 auto 2rem;
   }
 
@@ -129,6 +150,7 @@
   }
 
   .section__pic-container {
+    display: flex;
     width: auto;
     height: 46vw;
     justify-content: center;
