@@ -69,6 +69,42 @@ a:hover {
   color: rgb(31, 192, 23);  */
 }
 
+.p_fidelity {
+  color: rgb(85, 85, 85);
+}
+
+.p_fidelity:hover {
+  color: rgb(31, 192, 23);
+  text-decoration: none;
+}
+
+.p_ut_austin {
+  color: rgb(85, 85, 85);
+}
+
+.p_ut_austin:hover {
+  color: rgb(191, 87, 0);
+  text-decoration: none;
+}
+
+
+.link_intext {
+  color: rgb(85, 85, 85);
+}
+
+.link_intext:hover {
+  text-decoration: none;
+}
+
+.logo_link {
+  color: grey;
+}
+
+.logo_link:hover {
+  color: rgb(31, 192, 23);
+  text-decoration: none;
+}
+
 .logo {
   font-size: 2rem;
   color: grey;
